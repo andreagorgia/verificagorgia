@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cassettiera.component.css']
 })
 export class CassettieraComponent implements OnInit {
+  vet: string[];
+  constructor() {
+    this.vet= ['rino','pino','gino','lino','paolo','giancarlo','carlo','dino','andrea','gabriele'];
 
-  constructor() { }
+   }
 
   ngOnInit() {
   }
