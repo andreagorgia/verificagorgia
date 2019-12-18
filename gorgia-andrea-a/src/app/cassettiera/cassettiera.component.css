@@ -1,0 +1,17 @@
+.p{
+
+  background-color: #e6e15a;
+  list-style-type: none;
+  padding: 2%;
+  border: 1px solid black;
+  margin: 2%;
+}
+
+.p1{
+
+  background-color: #66b066;
+  position: center;
+  width: 12%;
+  padding: 15%;
+
+}

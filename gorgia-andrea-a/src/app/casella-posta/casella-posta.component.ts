@@ -7,7 +7,12 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CasellaPostaComponent implements OnInit {
   @Input() posta: string;
-  constructor() { }
+  vet2: string[];
+  constructor() {
+
+    this.vet2= ['lettera1','lettera2','lettera3'];
+
+   }
 
   ngOnInit() {
   }
